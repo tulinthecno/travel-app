@@ -1,6 +1,7 @@
 const properties = [
   {
     id: 1,
+    bg:'https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg',
     img: "/assets/images/property/fp1.jpg",
     price: "13000",
     type: "Apartment",
@@ -47,6 +48,7 @@ St, Los Angeles, CA 900015`,
   },
   {
     id: 2,
+    bg:'https://www.istockphoto.com/tr/foto%C4%9Fraf/milky-way-over-the-sea-gm486702564-73596017',
     img: "/assets/images/property/fp2.jpg",
     price: "14000",
     type: "Bungalow",
@@ -93,6 +95,7 @@ St, Los Angeles, CA 900015`,
   },
   {
     id: 3,
+    bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     img: "/assets/images/property/fp3.jpg",
     price: "13000",
     type: "Bungalow",
@@ -139,6 +142,7 @@ St, Los Angeles, CA 900015`,
   },
   {
     id: 4,
+    bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
     img: "/assets/images/property/fp15.jpg",
     price: "11000",
     type: "House",
@@ -1718,3 +1722,56 @@ St, Los Angeles, CA 900015`,
 ];
 
 export default properties
+
+
+export const featureSlider1 = [
+
+{
+  id:1,
+  bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
+  image:'',
+  title:'عرض خاص',
+  price:'200$',
+  desc:'سفرة 7 ليالي إلى الإمارات فقط ب 200 دولار'
+  
+} ,
+
+{
+  id:2,
+  bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  image:'',
+  title:'عرض خاص',
+  price:'200$',
+  desc:'سفرة 7 ليالي إلى الإمارات فقط ب 200 دولار'
+  
+} ,
+
+
+{
+  id:3,
+  bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  image:'',
+  title:'عرض خاص',
+  price:'200$',
+  desc:'سفرة 7 ليالي إلى الإمارات فقط ب 200 دولار'
+} ,
+
+
+{
+  id:4,
+  bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
+  image:'',
+  title:'عرض خاص',
+  price:'200$',
+  desc:'سفرة 7 ليالي إلى الإمارات فقط ب 200 دولار'
+ 
+} ,
+
+
+
+
+
+
+
+
+]

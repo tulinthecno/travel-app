@@ -11,6 +11,7 @@ import CopyrightFooter from "../common/footer/CopyrightFooter";
 import PopupSignInUp from "../common/PopupSignInUp";
 import Hero from "./Hero";
 import CountrySlider from "./countrySlider";
+import SliderDesignOne from "./sliderDesignOne";
 
 const Home3 = () => {
   return (
@@ -28,6 +29,32 @@ const Home3 = () => {
       <Hero />
 
   
+{/* -------NEW DESIGn SLIDER ONE------ */}
+<section id="property-city" className="property-city pt0 pb30 mt-12">
+ 
+       
+
+<div className="col-lg-12">
+            <div className="">
+              <SliderDesignOne/>
+            </div>
+          </div>
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
 
       {/* <!-- Property Cities --> */}
       <section id="property-city" className="property-city pt0 pb30 mt-12">
@@ -49,7 +76,7 @@ const Home3 = () => {
         </div> */}
 
 <div className="col-lg-12">
-            <div className="feature_property_home3_slider gutter-x15 mx-12">
+            <div className="">
               <CountrySlider/>
             </div>
           </div>

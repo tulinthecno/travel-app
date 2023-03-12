@@ -74,6 +74,127 @@
     }
 }
 
+
+
+// ------------SLIDDDDDE ONEEEEEEEEEEE 🔸️🔷️🔶️▫️-----
+
+.SliderOne {
+
+
+
+    .slick-dots {
+        position: relative;
+        top:-44px;
+        li {
+            display: inline-block;
+            button {
+                background-color: #cccccc;
+                border-radius: 50%;
+                margin: 3px;
+                width: 22px;
+                height: 22px;
+                transition: all 0.3s ease;
+                text-indent: -50000px;
+            }
+            &.slick-active {
+                button {
+                    background-color: #FCFF81 !important;
+                    border: 1px solid #e0e2e3;
+                    height: 22px;
+                    width: 22px;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+
+
+    .slick-next {
+        top: 576px;
+        display: block;
+        right: 37%;
+    }
+
+
+    .slick-prev {
+        left: 37%;
+        top: 576px;
+    }
+    .slick-arrow {
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 6px 21px #efefef;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        z-index: 5;
+        transition: all 0.3s ease 0s;
+    
+        &::before {
+            content: "\f137";
+            font-family: Flaticon;
+            font-style: normal;
+            color: #333;
+            opacity: 1;
+            font-size: 14px;
+        }
+        &.slick-prev {
+            &::before {
+                content: "\f136";
+            }
+        }
+    }
+    .slick-prev:hover,
+    .slick-prev:focus,
+    .slick-next:hover,
+    .slick-next:focus {
+        background:#FCFF81;
+        color: black;
+        &::before {
+            color: black;
+        }
+    }
+
+
+
+
+    @media (min-width: 1500px) {
+
+        .slick-next {
+            top: 576px;
+            display: block;
+            right: 41%;
+        }
+
+
+        .slick-prev {
+            left: 41%;
+            top: 576px;
+        }
+
+
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 //
 .slide {
     height: 805px;

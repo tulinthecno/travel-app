@@ -8,6 +8,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'inter': ['Inter', 'sans-serif'], 
+      'urbanist': ['Urbanist', 'sans-serif'], 
+      'arabic': ['Noto Sans Arabic', 'sans-serif'], 
+      SansArabic: ["IBM Plex Sans Arabic", "sans-serif"],
+   
+    }
   },
   plugins: [require("tailwind-scrollbar-hide"), require("@tailwindcss/forms")],
 };

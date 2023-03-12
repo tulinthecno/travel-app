@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.py-2\.5 {
+/* .py-2\.5 {
   padding-top: 0.825rem !important ;
   padding-bottom: 0.825rem !important;
-}
+} */
 
 input:focus {
   outline: none !important;
@@ -15,4 +15,27 @@ input:focus {
 .numOfGuest {
   position: relative;
   width: 80%;
+}
+
+
+
+.testimonial-pagination .swiper-pagination-bullet {
+  background: #ff4838;
+  padding: 7px;
+  opacity: unset;
+}
+
+.testimonial-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.testimonial-slider-two .slider-item {
+  padding-bottom: 30px;
+}
+
+.bg-opacity {
+
+background-color: rgba(0,0,0,0.5);
+
+
 }
