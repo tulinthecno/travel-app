@@ -37,6 +37,8 @@ const markers = [
   const setLocation = (country) => {
 
 
+
+    
     Router.push('/blogs?country=' + country?.name)
 
 setSelected(country)
