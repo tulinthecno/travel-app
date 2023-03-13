@@ -13,7 +13,7 @@ const Seo = ({ pageTitle, font }) => (
       />
       <meta
         name="description"
-        content="Patagonia - Real Estate React Template"
+        content="Patagonia "
       />
       <meta name="ibthemes" content="ATFN" />
       <meta
@@ -22,7 +22,7 @@ const Seo = ({ pageTitle, font }) => (
       />
 
       {font && <link href={font} rel="stylesheet" />}
-      <link rel="icon" href="favicon.ico" />
+      <link rel="icon" href="/assets/images/service-imgs/this.jpeg" />
     </Head>
   </>
 );
