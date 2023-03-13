@@ -69,11 +69,11 @@ const SliderDesignOne = () => {
 
               className={`pt-[14px]  text-center`}>
 
-              <h1 className=" text-[#FCFF81]  font-arabic text-xl md:text-3xl font-semibold">{item?.title}</h1>
+              <h1 className=" text-[#FCFF81]  font-arabic text-2xl md:text-3xl font-semibold">{item?.title}</h1>
 
-              <h1 className=" text-white  font-arabic  sm:leading-[49px] text-xl md:text-[33px] md:mt-12 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
+              <h1 className=" text-white  font-arabic leading-[42px]  sm:leading-[49px] text-2xl md:text-[33px] mt-4 md:mt-12 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
 
-<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto w-[75%] p-2   sm:p-4 mt-4  font-arabic  hover:bg-yellow-100    duration-100  transition-all">احجز الآن</h2>
+<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto w-[75%] p-2   sm:p-4 mt-6  font-arabic  hover:bg-yellow-100    duration-100  transition-all">احجز الآن</h2>
 
             </div>
 
@@ -93,7 +93,7 @@ const SliderDesignOne = () => {
   ));
 
   return (
-    <div className="mt-12  mb-[55px] SliderOne  overflow-hidden ">
+    <div className="mt-12  mb-[1px] SliderOne  overflow-hidden ">
       <Slider {...settings} arrows={true}>
         {content}
       </Slider>
