@@ -12,6 +12,7 @@ import PopupSignInUp from "../common/PopupSignInUp";
 import Hero from "./Hero";
 import CountrySlider from "./countrySlider";
 import SliderDesignOne from "./sliderDesignOne";
+import SliderDesignTwo from "./sliderDesignTwo";
 
 const Home3 = () => {
   return (
@@ -46,6 +47,22 @@ const Home3 = () => {
       </section>
 
 
+
+{/* -------NEW DESIGn SLIDER TWOOO------ */}
+<section id="property-city" className="property-city pt0 pb30 mt-12">
+ 
+       
+
+<div className="col-lg-12">
+            <div className="">
+              <SliderDesignTwo/>
+            </div>
+          </div>
+
+
+
+
+      </section>
 
 
 
