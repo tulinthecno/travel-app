@@ -43,7 +43,7 @@ const SliderDesignOne = () => {
 
 
 
-      className="   md:mt-12  h-[300px] md:h-[555px]    ">
+      className="   md:mt-12  h-[422px] md:h-[555px]    ">
 
 
       <div

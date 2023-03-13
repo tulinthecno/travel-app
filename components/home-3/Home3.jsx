@@ -28,11 +28,12 @@ const Home3 = () => {
       <PopupSignInUp />
 
       {/* <!-- Home Design --> */}
-      <Hero />
+      {/* <Hero /> */}
 
   
-{/* -------NEW DESIGn SLIDER ONE------ */}
-<section id="property-city" className="property-city pt0 pb30 mt-12">
+{/* -------NEW DESIGn SLIDER ONE   home-thre bg-img pt-2  md-mt0------ */}
+<div className=" -mt-[48px]">
+<section id="property-city" className="property-city pt0 pb30 mt-0">
  
        
 
@@ -47,10 +48,11 @@ const Home3 = () => {
 
       </section>
 
+      </div>
 
 
 {/* -------NEW DESIGn SLIDER TWOOO------ */}
-<section id="property-city" className="property-city pt0 pb30 mt-12">
+{/* <section id="property-city" className="property-city pt0 pb30 mt-12">
  
        
 
@@ -63,12 +65,16 @@ const Home3 = () => {
 
 
 
-      </section>
+      </section> */}
 
 
 
 
-      <section id="property-city" className="property-city pt0 pb30 mt-12">
+
+ {/* -------NEW DESIGn SLIDER THREE------ */}
+
+
+      {/* <section id="property-city" className="property-city pt0 pb30 mt-12">
  
        
 
@@ -81,7 +87,7 @@ const Home3 = () => {
  
  
  
-       </section>
+       </section> */}
  
 
 
