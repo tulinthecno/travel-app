@@ -61,7 +61,7 @@ const SliderDesignTwo = () => {
         <div className="item  w-[37%]  lg:w-[33%] h-[100%]  " >
           {/* { bg-black  opacity-[0.6]} */}
 
-          <div className="  md:pt-12 w-full bg-opacity  h-full   rounded-lg">
+          <div className="  md:pt-12 w-full bg-[#2C413D]  h-full   rounded-lg">
 
             {/* -----Content------ */}
 
@@ -73,7 +73,7 @@ const SliderDesignTwo = () => {
 
               <h1 className=" text-white  font-arabic leading-[33px] md:leading-[55px] text-md md:text-3xl md:mt-12 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
 
-<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto w-[75%] p-2   sm:p-2 md:p-4 mt-4">احجز الآن</h2>
+<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto w-[75%] p-2   sm:p-2 md:p-4 mt-4  font-arabic hover:bg-yellow-100    duration-100  transition-all">احجز الآن</h2>
 
             </div>
 

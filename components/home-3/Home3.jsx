@@ -13,6 +13,7 @@ import Hero from "./Hero";
 import CountrySlider from "./countrySlider";
 import SliderDesignOne from "./sliderDesignOne";
 import SliderDesignTwo from "./sliderDesignTwo";
+import SliderDesignThree from "./sliderDesignThree";
 
 const Home3 = () => {
   return (
@@ -65,6 +66,23 @@ const Home3 = () => {
       </section>
 
 
+
+
+      <section id="property-city" className="property-city pt0 pb30 mt-12">
+ 
+       
+
+ <div className="col-lg-12">
+             <div className="">
+               <SliderDesignThree/>
+             </div>
+           </div>
+ 
+ 
+ 
+ 
+       </section>
+ 
 
 
 

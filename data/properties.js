@@ -1728,7 +1728,7 @@ export const featureSlider1 = [
 
 {
   id:1,
-  bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
+  bg:'https://images.unsplash.com/photo-1527288012656-13ea8f91bd63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
   image:'',
   title:'عرض خاص',
   price:'200$',
@@ -1738,7 +1738,7 @@ export const featureSlider1 = [
 
 {
   id:2,
-  bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  bg:'https://images.unsplash.com/photo-1504556647341-3ce6ab157835?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
   image:'',
   title:'عرض خاص',
   price:'200$',
@@ -1749,7 +1749,7 @@ export const featureSlider1 = [
 
 {
   id:3,
-  bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  bg:'https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
   image:'',
   title:'عرض خاص',
   price:'200$',
@@ -1759,7 +1759,7 @@ export const featureSlider1 = [
 
 {
   id:4,
-  bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
+  bg:'https://images.unsplash.com/photo-1504556106489-6d450910aeb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80',
   image:'',
   title:'عرض خاص',
   price:'200$',
@@ -1782,11 +1782,12 @@ export const featureSlider1 = [
 // ----------------------
 
 
+
 export const featureSlider2 = [
 
   {
     id:1,
-    bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
+    bg:'https://images.unsplash.com/photo-1594005204555-823f0d266f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',
@@ -1796,7 +1797,7 @@ export const featureSlider2 = [
   
   {
     id:2,
-    bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    bg:'https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',
@@ -1807,7 +1808,7 @@ export const featureSlider2 = [
   
   {
     id:3,
-    bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    bg:'https://images.unsplash.com/photo-1444084316824-dc26d6657664?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',
@@ -1817,7 +1818,7 @@ export const featureSlider2 = [
   
   {
     id:4,
-    bg:'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0',
+    bg:'https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',
@@ -1834,3 +1835,64 @@ export const featureSlider2 = [
   
   ]
   
+
+
+
+  // -------------------------------
+
+
+  export const featureSlider3 = [
+
+    {
+      id:1,
+      bg:'https://images.unsplash.com/photo-1551039975-d55d29f93494?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80',
+      image:'',
+      title:'عرض خاص',
+      price:'200$',
+      desc:'سفرة 7 ليالي إلى تركيا فقط ب 200 دولار'
+      
+    } ,
+    
+    {
+      id:2,
+      bg:'https://images.unsplash.com/photo-1624436048867-3cab158ec71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+      image:'',
+      title:'عرض خاص',
+      price:'200$',
+      desc:'سفرة 7 ليالي إلى تركيا فقط ب 200 دولار'
+      
+    } ,
+    
+    
+    {
+      id:3,
+      bg:'https://images.unsplash.com/photo-1583511416766-083ba12de77c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+      image:'',
+      title:'عرض خاص',
+      price:'200$',
+      desc:'سفرة 7 ليالي إلى تركيا فقط ب 200 دولار'
+    } ,
+    
+    
+    {
+      id:4,
+      bg:'https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+      image:'',
+      title:'عرض خاص',
+      price:'200$',
+      desc:'سفرة 7 ليالي إلى تركيا فقط ب 200 دولار'
+     
+    } ,
+    
+    
+    
+    
+    
+    
+    
+    
+    ]
+    
+
+
+    
