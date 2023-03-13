@@ -54,7 +54,7 @@ const CountrySlider = () => {
   
       {countries.slice(0, 6).map((item) => (
           <div className="item" key={item.id}>
-            <div className="feat_property home3  h-[320px] w-[355px] ">
+            <div className="feat_property home3  h-[320px] w-[415px] ">
             <Link  href={item?.items[0].routerPath}>
               <div className="thumb">
                 <img className="img-whp" src={item.image} alt="fp1.jpg" />
