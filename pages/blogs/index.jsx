@@ -10,7 +10,7 @@ import { checkGridRowIdIsValid } from "@mui/x-data-grid";
 const BlogsPage = ({data}) => {
   return (
     <>
-      <Seo pageTitle="Blog Gid 3" />
+      <Seo pageTitle="Blogs" />
       <BlogV3  data={data}/>
     </>
   );

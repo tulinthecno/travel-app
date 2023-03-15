@@ -24,6 +24,8 @@ export default function Document() {
         />
 
 
+<title> Patagonia</title>
+
 
 
         </Head>

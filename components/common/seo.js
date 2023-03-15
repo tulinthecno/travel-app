@@ -4,7 +4,7 @@ const Seo = ({ pageTitle, font }) => (
   <>
     <Head>
       <title>
-        {pageTitle && `${pageTitle} || Patagonia - Real Estate React Template}`}
+        {pageTitle && `${pageTitle} || Patagonia `}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta

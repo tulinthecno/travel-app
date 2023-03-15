@@ -58,7 +58,7 @@ const SliderDesignOne = () => {
 
 {/* m-auto w-[80%] lg:w-[33%] h-[80%] */}
 
-        <div className="item pt-[7px] md:pt-12 m-auto w-[80%] lg:w-[33%] h-[80%]  " >
+        <div className="item pt-[7px] md:pt-12 m-auto w-[80%] lg:w-[33%] h-[80%] lg:h-[75%]  " >
           {/* { bg-black  opacity-[0.6]} */}
 
           <div className="  pt-12 w-full bg-opacity  h-full mt-[4px] lg:mt-12 rounded-lg">
@@ -69,9 +69,9 @@ const SliderDesignOne = () => {
 
               className={`pt-[14px]  text-center`}>
 
-              <h1 className=" text-[#FCFF81]  font-arabic text-2xl md:text-3xl font-semibold">{item?.title}</h1>
+              <h1 className=" text-[#FCFF81]  font-arabic text-2xl md:text-3xl font-semibold   lg:-mb-[17px]">{item?.title}</h1>
 
-              <h1 className=" text-white  font-arabic leading-[42px]  sm:leading-[49px] text-2xl md:text-[33px] mt-4 md:mt-12 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
+              <h1 className=" text-white  font-arabic leading-[42px]  sm:leading-[55px] text-2xl md:text-[33px] lg:text-[37px] mt-2 md:mt-12 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
 
 <h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto w-[75%] p-2   sm:p-4 mt-6  font-arabic  hover:bg-yellow-100    duration-100  transition-all">احجز الآن</h2>
 
