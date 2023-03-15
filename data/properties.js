@@ -1757,6 +1757,8 @@ export const featureSlider1 = [
 } ,
 
 
+
+
 // {
 //   id:4,
 //   bg:'https://images.unsplash.com/photo-1504556106489-6d450910aeb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80',
