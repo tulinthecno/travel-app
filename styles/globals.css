@@ -48,3 +48,93 @@ background-color: rgba(0,0,0,0.65);
   border-top-left-radius: 17% !important;
   border-bottom-left-radius: 17% !important; */
 }
+
+
+
+
+
+/* @media (max-width: 1200px) {
+
+  .sign-me-res{
+
+left:700px !important;
+
+
+  }
+  
+
+
+} */
+
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+
+  .sign-me-res{
+position: relative !important;
+    left:555px !important;
+    
+    
+      }
+
+
+ 
+}
+
+
+
+@media (min-width: 955px) and (max-width: 1100px) {
+
+  .sign-me-res{
+position: relative !important;
+    left:400px !important;
+    
+    
+      }
+
+
+ 
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+
+  .sign-me-res{
+position: relative !important;
+    left:555px !important;
+    
+    
+      }
+    }
+
+
+ 
+    
+@media (min-width: 1350px) and (max-width: 1750px) {
+
+  .sign-me-res{
+position: relative !important;
+    left:722px !important;
+    
+    
+      }
+    }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 987px) {
+
+  .sign-me-res{
+
+    position: relative !important;
+    left:666px !important;
+    
+    
+      }
+
+
+ 
+}

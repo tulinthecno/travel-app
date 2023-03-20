@@ -234,18 +234,24 @@ const HeaderMenuContentHome = ({ float = "" }) => {
       {!route.pathname.startsWith("/admin") &&
 
 
-        <li className={`list-inline-item list_s ${float}   relative md:left-[333px]  lg:left-[855px]`}>
+
+
+
+        <li className={`list-inline-item list_s  ${float}   relative  sign-me-res  `}>
           <Link href={'/login'}>
             <a
               href="#"
               className="btn flaticon-user"
             //   data-bs-toggle="modal"
-            //   data-bs-target=".bd-example-modal-lg"
+            //   data-bs-target=".bd-example-modal-lg         dn-lg"
             >
-              <span className="dn-lg">تسجيل دخول</span>
+              <span className="   text-black  ">تسجيل دخول</span>
             </a>
           </Link>
         </li>
+
+
+     
 
       }
 
