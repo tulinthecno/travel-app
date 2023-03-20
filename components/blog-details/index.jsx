@@ -115,7 +115,7 @@ const index = ({ data }) => {
                   <div className=" row  my-4">
 
                     
-                    {data?.image.slice(0,4).map((item, index) => {
+                    {data?.image.slice(1,4).map((item, index) => {
 
                       return (
 
