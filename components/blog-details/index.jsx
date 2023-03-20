@@ -156,7 +156,7 @@ const index = ({ data }) => {
 
 
                   <div className="details">
-                    <p className="mb30">
+                    <p dir="rtl" className="mb30">
                       {/* {parsedHtml} */}
 
                       {/* <ReactQuill
