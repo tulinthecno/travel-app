@@ -102,7 +102,7 @@ const index = ({ data }) => {
                   </ul>
                   <div className="thumb">
                     <img
-                      className="img-fluid  w-full h-[288px]  md:h-[400px] lg:h-[600px]  object-cover"
+                      className="img-fluid  w-full h-[333px]  md:h-[400px] lg:h-[600px]  object-cover"
                       src={data?.image[0]?.url}
                       // src="assets/images/blog/bs1.jpg"
                       alt="bs1.jpg"
@@ -126,7 +126,7 @@ const index = ({ data }) => {
                         &&
                         <div className=' col-md-6 col-lg-6' key={index} >
 
-<img className="w-full md:max-h-[444px]  h-[500px]  object-cover  rounded-lg  m-2" src={item?.url} alt="" />
+<img className="w-full md:max-h-[466px]  h-[300px]   object-cover  rounded-lg  m-2" src={item?.url} alt="" />
                          
 
                         </div>
