@@ -94,6 +94,9 @@ const index = ({blogs}) => {
                 </div>
                 {/* End .col */}
               </div>
+
+
+              
               {/* End .row */}
 
               {/* <div className="row mt50">
