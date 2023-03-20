@@ -430,7 +430,8 @@ export const listingCountries = [
   {
     id: 1,
     title: "السعودية",
-    icon : "https://cdn-icons-png.flaticon.com/128/5111/5111777.png",
+    icon : '/assets/images/countries-icon/133-saudi-arabia.png',
+    //  "https://cdn-icons-png.flaticon.com/128/5111/5111777.png",
     items: [
       {
         name: "تأشيرات السعوديه جميع انواعها",
@@ -468,7 +469,8 @@ export const listingCountries = [
   {
     id: 2,
     title: " تركيا",
-    icon: "https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png",
+    icon : '/assets/images/countries-icon/218-turkey.png',
+    // icon: "https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png",
     items: [
       {
         name: "حجز فنادق",
@@ -538,7 +540,8 @@ export const listingCountries = [
   {
     id: 3,
     title: "أذربيجان",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8x2osX3CIw6fBnFeTa7YD1vV_DkCPy7yGvQ&usqp=CAU",
+    icon : '/assets/images/countries-icon/141-azerbaijan.png',
+    // icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8x2osX3CIw6fBnFeTa7YD1vV_DkCPy7yGvQ&usqp=CAU",
     items: [
       {
         name: "عروض سياحيه وجولات فقط",
@@ -553,8 +556,8 @@ export const listingCountries = [
   {
     id: 4,
     title: "الإمارات",
-
-    icon: "https://img.icons8.com/color/256/united-arab-emirates.png",
+    icon : '/assets/images/countries-icon/151-united-arab-emirates.png',
+    // icon: "https://img.icons8.com/color/256/united-arab-emirates.png",
     items: [
       {
         name: " تأشيرة السياحيه",
@@ -586,7 +589,8 @@ export const listingCountries = [
   {
     id: 5,
     title: "اوزبكستان ",
-    icon: "https://t4.ftcdn.net/jpg/05/76/40/11/240_F_576401172_6gmrpRQxWRwteIpT3hEuUruptksnw4VO.jpg",
+    icon : '/assets/images/countries-icon/190-uzbekistn.png',
+    // icon: "https://t4.ftcdn.net/jpg/05/76/40/11/240_F_576401172_6gmrpRQxWRwteIpT3hEuUruptksnw4VO.jpg",
     items: [
       {
         name: "تأشيرات سياحيه",
@@ -610,7 +614,8 @@ export const listingCountries = [
   {
     id: 6,
     title: "قيرغيستان",
-    icon: "https://static.vecteezy.com/system/resources/previews/004/712/803/original/kyrgyzstan-flat-rounded-national-flag-icon-vector.jpg",
+    icon : '/assets/images/countries-icon/152-kyrgyzstan.png',
+    // icon: "https://static.vecteezy.com/system/resources/previews/004/712/803/original/kyrgyzstan-flat-rounded-national-flag-icon-vector.jpg",
     items: [
       {
         name: " تأشيره قيرغيستان",

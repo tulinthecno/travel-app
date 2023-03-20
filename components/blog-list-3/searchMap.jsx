@@ -54,7 +54,7 @@ return (
 
     <div className="  md:h-[800px]">
     <ComposableMap 
-    className='   text-black mt-24 md:h-[900px]     bg-blue-500 w-100 border-green-400 border-2'
+    className='   text-black mt-24 md:h-[900px]      w-100  border-none'
     >
       <Geographies geography={MapData}>
         {({ geographies }) =>
@@ -90,10 +90,15 @@ return (
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            transform="translate(-12, -24)"
+             transform="translate(-12, -24)"
           >
-            <circle cx="12" cy="10" r="3" />
-            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" />
+            <circle 
+              r={8} fill="#fbff00" stroke="#fff" strokeWidth={2}
+            // r={10} fill="#F00" stroke="#fff" strokeWidth={2}
+            // cx="12" cy="10" r="3" 
+            
+            />
+            {/* <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" /> */}
           </g>
           <text
           onClick={()=> setLocation({name:name})}
