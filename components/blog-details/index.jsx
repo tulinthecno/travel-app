@@ -115,7 +115,7 @@ const index = ({ data }) => {
                   <div className=" row  my-4">
 
                     
-                    {data?.image.slice(1,4).map((item, index) => {
+                    {data?.image.slice(1,5).map((item, index) => {
 
                       return (
 
@@ -126,7 +126,7 @@ const index = ({ data }) => {
                         &&
                         <div className=' col-md-6 col-lg-6' key={index} >
 
-<img className="w-full md:max-h-[444px]  h-auto  object-cover  rounded-lg  m-2" src={item?.url} alt="" />
+<img className="w-full md:max-h-[444px]  h-[500px]  object-cover  rounded-lg  m-2" src={item?.url} alt="" />
                          
 
                         </div>

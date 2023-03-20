@@ -38,7 +38,11 @@ const HeaderMenuContentHome = ({ float = "" }) => {
   return (
     <ul
       id="respMenu"
-      className="ace-responsive-menu text-end d-lg-block d-none"
+      className={`ace-responsive-menu text-end d-lg-block d-none
+      
+      ${route.pathname.startsWith("/admin") && ' nav-left'}
+      
+      `}
       data-menu-style="horizontal"
     >
 
@@ -104,6 +108,11 @@ const HeaderMenuContentHome = ({ float = "" }) => {
 
 
 
+
+     
+      
+
+
       <li className="dropitem">
         <a
           href="#"
@@ -166,6 +175,8 @@ const HeaderMenuContentHome = ({ float = "" }) => {
           ))}
         </ul>
       </li>
+
+
 
 
 

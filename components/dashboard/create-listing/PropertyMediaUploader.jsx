@@ -30,6 +30,11 @@ const PropertyMediaUploader = ({ setImages, setAlert, setLoading, images, handle
 
         const url = await uploadFile(file, filePath)
 console.log('URLLLL->' , url)
+
+
+
+
+
        // setImgsArray(...imgsArray, url)
        // setImages(...images,url)
         setImages((old) => [...old, ...url]);
@@ -52,6 +57,8 @@ console.log('URLLLL->' , url)
 
 const handleImageChange = (e) => {
   setImages(Array.from(e.target.files));
+
+
 };
 
 

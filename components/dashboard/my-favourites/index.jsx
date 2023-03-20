@@ -86,9 +86,9 @@ const index = ({blogs}) => {
                     <div className="favorite_item_list">
                       <FavouritProducts blogs={blogs} />
 
-                      <div className="mbp_pagination">
+                      {/* <div className="mbp_pagination">
                         <Pagination />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
