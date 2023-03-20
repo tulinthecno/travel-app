@@ -13,26 +13,26 @@ import BreadCrumb2 from "./BreadCrumb2";
 
 
 
-const index = ({data}) => {
+const index = ({ data }) => {
 
   const description = (desc) => {
     let data = desc.split('>')[1].split('<')[0]
-   console.log('description-->' , data)
+    console.log('description-->', data)
     // data.length >= 250 ? data.slice(0, 650) :
-    return  data
-}
-const title = (data) => {
+    return data
+  }
+  const title = (data) => {
     return data.length >= 50 ? data.slice(0, 50) + "..." : data
-}
+  }
 
 
-// const getText = (html) =>{
-//   const doc = new DOMParser().parseFromString(html, "text/html")
-//   return doc.body.textContent
-// }
+  // const getText = (html) =>{
+  //   const doc = new DOMParser().parseFromString(html, "text/html")
+  //   return doc.body.textContent
+  // }
 
 
-// const parsedHtml = data?.description.replace(/(<([^>]+)>)/gi, '');
+  // const parsedHtml = data?.description.replace(/(<([^>]+)>)/gi, '');
 
 
 
@@ -66,21 +66,21 @@ const title = (data) => {
                   </div>
                   <h3 className="blog_sp_title">
 
-{title(data?.title)}
+                    {title(data?.title)}
                     {/* Redfin Ranks the Most Competitive Neighborhoods of 2020 */}
                   </h3>
                   <ul className="blog_sp_post_meta">
-                    <li className="list-inline-item">
+                    {/* <li className="list-inline-item">
                       <a href="#">
                         <img
                           src="/assets/images/property/pposter1.png"
                           alt="pposter1.png"
                         />
                       </a>
-                    </li>
-                    <li className="list-inline-item">
+                    </li> */}
+                    {/* <li className="list-inline-item  ml-2">
                       <a href="#">ADMIN</a>
-                    </li>
+                    </li> */}
                     <li className="list-inline-item">
                       <span className="flaticon-calendar"></span>
                     </li>
@@ -93,9 +93,9 @@ const title = (data) => {
                     <li className="list-inline-item">
                       <a href="#"> 341 views</a>
                     </li>
-                    <li className="list-inline-item">
+                    {/* <li className="list-inline-item">
                       <span className="flaticon-chat"></span>
-                    </li>
+                    </li> */}
                     {/* <li className="list-inline-item">
                       <a href="#">15</a>
                     </li> */}
@@ -109,6 +109,52 @@ const title = (data) => {
                     />
                   </div>
 
+
+                  {/* ------ onother Blog Images----- */}
+
+                  <div className=" row  my-4">
+
+                    
+                    {data?.image.slice(0,4).map((item, index) => {
+
+                      return (
+
+
+
+
+                        data?.image?.length > 0
+                        &&
+                        <div className=' col-md-6 col-lg-6' key={index} >
+
+<img className="w-full md:max-h-[444px]  h-auto  object-cover  rounded-lg  m-2" src={item?.url} alt="" />
+                         
+
+                        </div>
+
+
+
+                      )
+
+
+
+
+
+                      //  : <div>no Images Selected</div>
+
+
+
+                    })}
+
+
+
+                  </div>
+
+
+
+
+
+
+
                   <div className="details">
                     <p className="mb30">
                       {/* {parsedHtml} */}
@@ -119,10 +165,10 @@ const title = (data) => {
                 value={data?.description}
                 theme="bubble"
               /> */}
-                 {parse(data?.description)}
-               
+                      {parse(data?.description)}
+
                     </p>
-                 
+
                   </div>
                   {/* <ul className="blog_post_share">
                     <li>

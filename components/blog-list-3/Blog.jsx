@@ -84,12 +84,12 @@ const parseHtml = (desc) => {
 
 
     {blogs?.map((item) => (
-        <div className="col-lg-3 col-md-6" key={item.id}>
+        <div className="col-lg-4 col-md-6" key={item.id}>
           <div className="for_blog feat_property">
             <div className="thumb">
               <Link href={`/blogs/${item.id}`}>
                 <a>
-                  <img className="img-whp  w-[365px]  h-[450px] object-cover" src={item.image[0]?.url} alt={'blog'} />
+                  <img className="img-whp  w-full  h-[450px] object-cover" src={item.image[0]?.url} alt={'blog'} />
                 </a>
               </Link>
               <div className="blog_tag">{item?.country}</div>
@@ -105,7 +105,7 @@ const parseHtml = (desc) => {
                 </h4>
                 <ul className="bpg_meta mb10">
                   <li className="list-inline-item">
-                    <a href="#">
+                    <a >
                       <i className="flaticon-calendar"></i>
                     </a>
                   </li>
