@@ -85,7 +85,7 @@ const index = ({ data }) => {
                       <span className="flaticon-calendar"></span>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">{data?.date}</a>
+                      <a href="#">{data?.blogDate !== '' ? data?.blogDate : data?.date}</a>
                     </li>
                     <li className="list-inline-item">
                       <span className="flaticon-view"></span>

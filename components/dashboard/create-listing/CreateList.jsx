@@ -10,7 +10,7 @@ const QuillNoSSRWrapper = dynamic(import('react-quill'), {
 })
 
 
-const CreateList = ({setTitle, title, value, setValue, handleClick,  setAlert, setLoading , country , setCountry }) => {
+const CreateList = ({setTitle, title, value, setValue, handleClick,  setAlert, setLoading , country , setCountry , blogDate, setBlogDate }) => {
 
 
 
@@ -105,8 +105,12 @@ const CreateList = ({setTitle, title, value, setValue, handleClick,  setAlert, s
 
       <div className="col-lg-4 col-xl-4">
         <div className="my_profile_setting_input form-group">
-          <label htmlFor="formGroupExampleArea">Area</label>
+          <label htmlFor="formGroupExampleArea">blog Date</label>
           <input
+
+value={blogDate}
+onChange={(e) => setBlogDate(e.target.value)}
+
             type="text"
             className="form-control"
             id="formGroupExampleArea"
