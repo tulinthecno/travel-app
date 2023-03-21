@@ -60,7 +60,7 @@ const CreateList = ({setTitle, title, value, setValue, handleClick,  setAlert, s
             data-width="100%"
           >
             <option  value ='croatia'  data-tokens="type1">Croatia</option>
-            <option  value ='sauid'   data-tokens="Type2">Sauid arabistan</option>
+            <option  value ='saudi'   data-tokens="Type2">Saudi arabistan</option>
             <option value='uzbakistan'  data-tokens="Type3">Uzbakistan</option>
             <option  value ="emirates" data-tokens="Type4">Emirates</option>
             <option value='Kirgizistan'  data-tokens="Type5">Kirgizistan</option>
