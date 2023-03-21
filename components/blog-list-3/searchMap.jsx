@@ -90,7 +90,7 @@ return (
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-             transform="translate(-1, -4)"
+             transform="translate(-1, -1)"
           >
             <circle 
               r={8} fill="#fbff00" stroke="#fff" strokeWidth={2}
