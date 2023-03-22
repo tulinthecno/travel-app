@@ -4,6 +4,7 @@ import Router from "next/router";
 
 import { ComposableMap, Geographies, Geography ,Marker } from "react-simple-maps";
 import MapData from '../../mapFiles/faatures.json'
+import { createGlobalStyle } from "styled-components";
 
 
 
@@ -15,13 +16,13 @@ const markers = [
   //   coordinates: [77.630554, 17.422222]
   // },
   // 38.630554, 27.422222
-  { markerOffset: 15, name: "turkey", coordinates: [ 27.422222 ,38.630554,] },
-  { markerOffset: 15, name: "pakistan", coordinates: [74.329376 , 38.630554] },
-  { markerOffset: 15, name: "kirgizistan", coordinates: [38.089420 , 40.166810] },
-  { markerOffset: 15, name: "croatia", coordinates: [15.200000 , 45.099998] },
-  { markerOffset: 15, name: "serbia", coordinates: [ 21.005859, 44.016521] },
-  { markerOffset: 15, name: "saudi", coordinates: [45.079163 ,23.885942 ] },
-  { markerOffset: 15, name: "emirates", coordinates: [55.17128 ,25.0657] },
+  { markerOffset: 15, name: "turkey", pro:'Turkey',  coordinates: [ 27.422222 ,38.630554,] },
+  { markerOffset: 15, name: "pakistan", pro:'Pakistan' ,coordinates: [74.329376 , 38.630554] },
+  { markerOffset: 15, name: "kirgizistan",pro:'Kirgizistan' , coordinates: [38.089420 , 40.166810] },
+  { markerOffset: 15, name: "croatia",pro:'Croatia' , coordinates: [15.200000 , 45.099998] },
+  { markerOffset: 15, name: "serbia",pro:'Serbia', coordinates: [ 21.005859, 44.016521] },
+  { markerOffset: 15, name: "saudi", pro:'Saudi Arabia',coordinates: [45.079163 ,23.885942 ] },
+  { markerOffset: 15, name: "emirates",pro:'United Arab Emirates' , coordinates: [55.17128 ,25.0657] },
 
 ];
 
@@ -46,6 +47,39 @@ console.log('country--->' , selected , country?.name)
 
   }
 
+const geosData = [
+'KAZ' , "TUR" 
+,"HRV" , 
+"ARE",
+ "KIR" ,"SA" , "RS" ,"SAU" ,"UZB" ,"PAK"
+
+
+
+]
+
+
+
+const geosDataFilter = (param) => {
+
+
+
+ const is =markers.filter((marker) => { return marker?.pro === param.properties?.name})
+
+
+ console.log('isTrue', is)
+
+
+if (is.length) {
+
+return '#F53'
+
+}
+
+return '#EEE'
+
+}
+
+
 
 
 
@@ -58,24 +92,47 @@ return (
     >
       <Geographies geography={MapData}>
         {({ geographies }) =>
-          geographies.map((geo) => (
-            <Geography key={geo.rsmKey} geography={geo}
+          geographies.map((geo) => 
+          // (
+            { 
+             // console.log('geographic' ,geo?.properties?.name)
+          //    console.log('geo ?????' ,  geosData.includes(geo?.id) ? '#b8614b' :'#EEE'  )
+              
+
+return (
+
             
+            <Geography key={geo.rsmKey} geography={geo}
+         
             style={{
                 default: {
-                  fill: "#EEE",
+                  fill:geosDataFilter(geo)
+              //    fill: geosData.includes(geo?.id) ? '#b8614b' :'#EEE' ,
+              //  fill:   `${geo?.id === "SAU"  || geo?.id === "PAK" 
+              //  || geo.id === "SRB" 
+              //  || geo.id === "HRV" 
+
+               
+              //  ? '#b8614b' :'#EEE'} `
+                  // fill: "#EEE",
                 },
-                hover: {
-                  fill: "#F53",
-                },
-                pressed: {
-                  fill: "#E42",
-                },
+                // hover: {
+                //   fill: "#F53"
+                // },
+                // pressed: {
+                //   fill: "#E42",
+                // },
               }}
             
             
             />
-          ))
+
+ )
+
+
+          // )
+            }
+          )
         }
       </Geographies>
 
@@ -90,23 +147,29 @@ return (
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-             transform="translate(-1, -1)"
+             transform="translate(1, 1)"
           >
             <circle 
-              r={8} fill="#fbff00" stroke="#fff" strokeWidth={2}
-            // r={10} fill="#F00" stroke="#fff" strokeWidth={2}
-            // cx="12" cy="10" r="3" 
+              r={4} fill="black" stroke="#fff" strokeWidth={2}   />
+
+
+
+            {/* // r={10} fill="#F00" stroke="#fff" strokeWidth={2}
+            // cx="12" cy="10" r="3"  */}
             
-            />
+          
             {/* <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" /> */}
           </g>
           <text
           onClick={()=> setLocation({name:name})}
             textAnchor="middle"
             y={markerOffset}
-            style={{ fontFamily: "system-ui", fill: "#5D5A6D"  , color: "#7b5151" , cursor: "pointer" }}
+            style={{ fontFamily: "system-ui", fill: "#5D5A6D"  , color: "#7b5151" , cursor: "pointer" ,fontSize: "8px" }}
           >
-            {/* {name} */}
+            
+
+ 
+
           </text>
         </Marker>
       ))}
