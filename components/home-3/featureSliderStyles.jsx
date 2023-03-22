@@ -61,7 +61,7 @@ const  FeaturesSliderStyles = () => {
               
 
               <div>
-                <p className=" relative   left-[88%]  rounded-md inline-block px-2 text-center bg-white  text-[#0038FF] font-arabic  font-semibold">$203</p>
+                <p className=" relative  left-[83%] md:left-[82%] lg:left-[88%]  rounded-md inline-block px-2 text-center bg-white  text-[#0038FF] font-arabic  font-semibold">$203</p>
               </div>
 
              
