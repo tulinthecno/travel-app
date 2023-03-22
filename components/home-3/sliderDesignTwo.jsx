@@ -43,11 +43,11 @@ const SliderDesignTwo = () => {
 
 
 
-      className="   md:mt-12  h-[300px] md:h-[410px]    ">
+      className="   md:mt-12  h-[300px] md:h-[488px]    ">
 
 
       <div
-        className="   w-full h-full  flex justify-end"
+        className="   w-full h-full  flex justify-end   bg-cover bg-center"
         style={{
           backgroundImage: item?.bg ? `url('${item?.bg}')` : `url("https://images.unsplash.com/photo-1675855547482-16834b36d4d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80")`,
           backgroundSize: 'cover', backgroundPosition: 'center'
@@ -66,14 +66,14 @@ const SliderDesignTwo = () => {
             {/* -----Content------ */}
 
             <div
+dir="rtl"
+              className={`pt-[48px]  text-cente`}>
 
-              className={`pt-[44px]  text-center`}>
+              <h1 className=" text-[#FCFF81] ml-auto mr-auto w-[77%] font-arabic text-xl md:text-2xl lg:text-3xl font-semibold">{item?.title}</h1>
 
-              <h1 className=" text-[#FCFF81]  font-arabic text-xl md:text-2xl lg:text-3xl font-semibold">{item?.title}</h1>
+              <h1 className=" text-white  font-arabic leading-[33px] md:leading-[55px] sm:text-2xl sm:mt-4 text-md md:text-4xl md:mt-8 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
 
-              <h1 className=" text-white  font-arabic leading-[33px] md:leading-[55px] text-md md:text-3xl md:mt-12 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
-
-<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto w-[75%] p-2   sm:p-2 md:p-4 mt-4  font-arabic hover:bg-yellow-100    duration-100  transition-all">احجز الآن</h2>
+<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto  mt-[18px] w-[75%] pb-2    sm:p-2 md:p-4   font-arabic hover:bg-yellow-100  text-center  duration-100  transition-all">احجز الآن</h2>
 
             </div>
 

@@ -1789,7 +1789,8 @@ export const featureSlider2 = [
 
   {
     id:1,
-    bg:'https://images.unsplash.com/photo-1594005204555-823f0d266f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
+    bg: '/assets/images/slider-images/image 8.png',
+    // 'https://images.unsplash.com/photo-1594005204555-823f0d266f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',
@@ -1799,7 +1800,8 @@ export const featureSlider2 = [
   
   {
     id:2,
-    bg:'https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    bg:"/assets/images/slider-images/image 10.png",
+    // 'https://images.unsplash.com/photo-1462007895615-c8c073bebcd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',
@@ -1810,7 +1812,8 @@ export const featureSlider2 = [
   
   {
     id:3,
-    bg:'https://images.unsplash.com/photo-1444084316824-dc26d6657664?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    bg:"/assets/images/slider-images/image 7.png",
+   // bg:'https://images.unsplash.com/photo-1444084316824-dc26d6657664?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     image:'',
     title:'عرض خاص',
     price:'200$',

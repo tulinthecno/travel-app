@@ -39,7 +39,8 @@ const Home3 = () => {
 
 <div className="col-lg-12">
             <div className="">
-              <SliderDesignOne/>
+              <SliderDesignTwo/>
+              {/* <SliderDesignOne/> */}
             </div>
           </div>
 
