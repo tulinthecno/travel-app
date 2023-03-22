@@ -58,7 +58,7 @@ const SliderDesignTwo = () => {
 
 {/* m-auto w-[80%] lg:w-[33%] h-[80%] */}
 
-        <div className="item  w-[37%]  lg:w-[33%] h-[100%]  " >
+        <div className="item  w-[34%]  lg:w-[36%] h-[100%]  " >
           {/* { bg-black  opacity-[0.6]} */}
 
           <div className="  md:pt-12 w-full bg-[#2C413D]  h-full   rounded-lg">
