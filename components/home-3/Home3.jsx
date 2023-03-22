@@ -14,6 +14,7 @@ import CountrySlider from "./countrySlider";
 import SliderDesignOne from "./sliderDesignOne";
 import SliderDesignTwo from "./sliderDesignTwo";
 import SliderDesignThree from "./sliderDesignThree";
+import CountrySliderStyles from "./countrySliderStyles";
 
 const Home3 = () => {
   return (
@@ -50,6 +51,31 @@ const Home3 = () => {
       </section>
 
       </div>
+
+
+
+<div>
+
+<div
+
+
+
+className=" relative top-[-33px] px-6    ">
+  <div>
+    <h1 dir="rtl" className=" ml-12 sm:text-2xl md:text-3xl lg:text-4xl font-bold font-arabic  ">اكتشف أفضل الوجهات</h1>
+  </div>
+</div>
+
+
+
+<CountrySliderStyles/>
+
+
+</div>
+
+
+
+
 
 
 {/* -------NEW DESIGn SLIDER TWOOO------ */}
@@ -99,7 +125,7 @@ const Home3 = () => {
 
 
       {/* <!-- Property Cities --> */}
-      <section id="property-city" className="property-city pt0 pb30 mt-12">
+       <section id="property-city" className="property-city pt0 pb30 mt-12">
         <div className="row">
           <div className="col-lg-12 text-center">
             <div className="main-title    ml-12 font-serif  font-semibold  text-2xl">
@@ -126,7 +152,16 @@ const Home3 = () => {
 
 
 
-      </section>
+      </section> 
+
+
+
+
+
+
+
+
+
 
 
     {/* <!-- Feature Properties -->    mt80  */}
