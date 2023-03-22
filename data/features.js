@@ -63,7 +63,7 @@ export const featuresData =  [
 
     {
         id:'6',
-        title:' Patagonia بمناسبة يوم المرأة تهنئة عطرة من شركه ',
+        title:'تهنئة بيوم المرأة' ,
         featurecorner:'عروض' ,
         img:'/assets/images/service-imgs/feature-beauty.jpeg',
         link:"https://butikatnaa.com/maintenance-page/" ,

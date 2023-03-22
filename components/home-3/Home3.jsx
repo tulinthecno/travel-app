@@ -15,6 +15,7 @@ import SliderDesignOne from "./sliderDesignOne";
 import SliderDesignTwo from "./sliderDesignTwo";
 import SliderDesignThree from "./sliderDesignThree";
 import CountrySliderStyles from "./countrySliderStyles";
+import FeaturesSliderStyles from "./featureSliderStyles";
 
 const Home3 = () => {
   return (
@@ -31,16 +32,16 @@ const Home3 = () => {
       {/* <!-- Home Design --> */}
       {/* <Hero /> */}
 
-  
-{/* -------NEW DESIGn SLIDER ONE   home-thre bg-img pt-2  md-mt0------ */}
-<div className=" -mt-[48px]">
-<section id="property-city" className="property-city pt0 pb30 mt-0">
- 
-       
 
-<div className="col-lg-12">
+      {/* -------NEW DESIGn SLIDER ONE   home-thre bg-img pt-2  md-mt0------ */}
+      <div className=" -mt-[48px]">
+        <section id="property-city" className="property-city pt0 pb30 mt-0">
+
+
+
+          <div className="col-lg-12">
             <div className="">
-              <SliderDesignTwo/>
+              <SliderDesignTwo />
               {/* <SliderDesignOne/> */}
             </div>
           </div>
@@ -48,27 +49,57 @@ const Home3 = () => {
 
 
 
-      </section>
+        </section>
 
       </div>
 
 
 
-<div>
+      <div>
+
+        <div
+
+
+
+          className=" relative top-[-33px] px-6    ">
+          <div>
+            <h1 dir="rtl" className=" ml-12 sm:text-2xl md:text-3xl lg:text-4xl font-bold font-arabic  ">اكتشف أفضل الوجهات</h1>
+          </div>
+        </div>
+
+
+
+        <CountrySliderStyles />
+
+
+      </div>
+
+
+
+
+
+      {/* ---------FEATURESS ONLARRR STYLEEEE------ */}
+
+
+      <div  className=" my-12">
 
 <div
 
 
 
-className=" relative top-[-33px] px-6    ">
+  className=" relative top-[-33px] px-6    ">
   <div>
-    <h1 dir="rtl" className=" ml-12 sm:text-2xl md:text-3xl lg:text-4xl font-bold font-arabic  ">اكتشف أفضل الوجهات</h1>
+    <h1 dir="rtl" className=" ml-12 sm:text-2xl md:text-3xl lg:text-4xl font-bold font-arabic  ">
+      
+      عروضنا
+      
+      </h1>
   </div>
 </div>
 
 
 
-<CountrySliderStyles/>
+<FeaturesSliderStyles />
 
 
 </div>
@@ -78,8 +109,15 @@ className=" relative top-[-33px] px-6    ">
 
 
 
-{/* -------NEW DESIGn SLIDER TWOOO------ */}
-{/* <section id="property-city" className="property-city pt0 pb30 mt-12">
+
+
+
+
+
+
+
+      {/* -------NEW DESIGn SLIDER TWOOO------ */}
+      {/* <section id="property-city" className="property-city pt0 pb30 mt-12">
  
        
 
@@ -98,7 +136,7 @@ className=" relative top-[-33px] px-6    ">
 
 
 
- {/* -------NEW DESIGn SLIDER THREE------ */}
+      {/* -------NEW DESIGn SLIDER THREE------ */}
 
 
       {/* <section id="property-city" className="property-city pt0 pb30 mt-12">
@@ -115,7 +153,7 @@ className=" relative top-[-33px] px-6    ">
  
  
        </section> */}
- 
+
 
 
 
@@ -125,23 +163,16 @@ className=" relative top-[-33px] px-6    ">
 
 
       {/* <!-- Property Cities --> */}
-       <section id="property-city" className="property-city pt0 pb30 mt-12">
+      {/* <section id="property-city" className="property-city pt0 pb30 mt-12">
         <div className="row">
           <div className="col-lg-12 text-center">
             <div className="main-title    ml-12 font-serif  font-semibold  text-2xl">
               <h2 className="  m-auto w-3/4 md:w-1/4  py-2 rounded-md text-white bg-red-500">بعض البلدان التي نقدم فيها خدماتنا</h2>
-              {/* <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                <a className="float-end" href="#">
-                  View All <span className="flaticon-next"></span>
-                </a>
-              </p> */}
+          
             </div>
           </div>
         </div>
-        {/* <div className="row m-4">
-          <FindProperties />
-        </div> */}
+    
 
 <div className="col-lg-12">
             <div className="">
@@ -152,7 +183,7 @@ className=" relative top-[-33px] px-6    ">
 
 
 
-      </section> 
+      </section>  */}
 
 
 
@@ -164,28 +195,23 @@ className=" relative top-[-33px] px-6    ">
 
 
 
-    {/* <!-- Feature Properties -->    mt80  */}
-    <section id="feature-property" className="feature-property
+      {/* <!-- Feature Properties -->    mt80  */}
+      {/* <section id="feature-property" className="feature-property
     
      pb50
      -mt-[20px]
      
      "
-     
-     >
+
+      >
         <div className="row">
           <div className="col-lg-12">
             <div className="main-title mb40 text-center">
               <h2
-              className="m-auto w-1/4  text-2xl p-2 rounded-md text-white bg-red-500"
+                className="m-auto w-1/4  text-2xl p-2 rounded-md text-white bg-red-500"
               >خدمات مميزة</h2>
-             
-              {/* <p>
-                Handpicked properties by our team.{" "}
-                <a className="float-end" href="#">
-                  View All <span className="flaticon-next"></span>
-                </a>
-              </p> */}
+
+
             </div>
           </div>
           <div className="col-lg-12">
@@ -197,15 +223,16 @@ className=" relative top-[-33px] px-6    ">
 
 
 
-          {/* <div className="col-lg-12">
-            <div className="feature_property_home3_slider gutter-x15 mx-12">
-              <CountrySlider/>
-            </div>
-          </div> */}
 
 
         </div>
-      </section>
+      </section> */}
+
+
+
+
+
+
 
 
 
@@ -278,7 +305,7 @@ className=" relative top-[-33px] px-6    ">
         </div>
       </section> */}
 
-<section className="footer_one">
+      <section className="footer_one">
         <div className="container">
           <div className="row">
             <Footer />
