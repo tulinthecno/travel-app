@@ -14,10 +14,69 @@ export const countries = [
         desc: "",
         subdesc: "",
         country: "saudi ",
+        mainPash:true  ,
+        Pash: true
       },
+      
 
+// -------------------------------------
+
+{
+  name: "تأشيرات السياحية",
+  routerPath: "/country/?country=1&service=visatourism",
+  mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+  images: [],
+  query: "visatourism",
+  desc: "",
+  subdesc: "",
+  country: "saudi ",
+},
+
+
+{
+  name: "تأشيرات عمرة",
+  routerPath: "/country/?country=1&service=visaomra",
+  mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+  images: [],
+  query: "visaomra",
+  desc: "",
+  subdesc: "",
+  country: "saudi ",
+},
+
+
+{
+  name: "تأشيرات رجال الأعمال",
+  routerPath: "/country/?country=1&service=visawork",
+  mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+  images: [],
+  query: "visawork",
+  desc: "",
+  subdesc: "",
+  country: "saudi ",
+},
+
+
+{
+  name: "تأشيرات زيارة",
+  routerPath: "/country/?country=1&service=visavisit",
+  mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+  images: [],
+  query: "visavisit",
+  desc: "",
+  subdesc: "",
+  country: "saudi ",
+},
+
+
+
+
+
+
+
+// ----------------------------
       {
-        name: "برامج العمره",
+        name: "برامج عمرة اقتصادية",
         routerPath: "/country/?country=1&service=omraProgramm",
         mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
         images: [],
@@ -48,27 +107,27 @@ export const countries = [
         country: "saudi ",
       },
 
-      {
-        name: "حجز فنادق",
-        routerPath: "/country/?country=1&service=hotelsFind",
-        mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
-        images: [],
-        query: "hotelsFind",
-        desc: "",
-        subdesc: "",
-        country: "saudi ",
-      },
+      // {
+      //   name: "حجز فنادق",
+      //   routerPath: "/country/?country=1&service=hotelsFind",
+      //   mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+      //   images: [],
+      //   query: "hotelsFind",
+      //   desc: "",
+      //   subdesc: "",
+      //   country: "saudi ",
+      // },
 
-      {
-        name: "حجز مواصلات",
-        routerPath: "/country/?country=1&service=carsReservation",
-        mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
-        images: [],
-        query: "carsReservation",
-        desc: "",
-        subdesc: "",
-        country: "saudi ",
-      },
+      // {
+      //   name: "حجز مواصلات",
+      //   routerPath: "/country/?country=1&service=carsReservation",
+      //   mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+      //   images: [],
+      //   query: "carsReservation",
+      //   desc: "",
+      //   subdesc: "",
+      //   country: "saudi ",
+      // },
 
       {
         name: "تأجير سيارات",
@@ -80,6 +139,21 @@ export const countries = [
         subdesc: "",
         country: "saudi ",
       },
+
+      {
+        name: "استكشف السعوديه",
+        routerPath: "/country/?country=1&service=discover",
+        mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
+        images: [],
+        query: "discover",
+        desc: "",
+        subdesc: "",
+        country: "saudi ",
+      },
+
+
+
+
     ],
   },
 
@@ -426,6 +500,15 @@ export const countries = [
   },
 ];
 
+
+
+
+
+
+
+
+
+
 export const listingCountries = [
   {
     id: 1,
@@ -433,38 +516,73 @@ export const listingCountries = [
     icon : '/assets/images/countries-icon/133-saudi-arabia.png',
     //  "https://cdn-icons-png.flaticon.com/128/5111/5111777.png",
     items: [
+      // {
+      //   name: "تأشيرات السعوديه جميع انواعها",
+      //   routerPath: "/country/?country=1&service=visa",
+      // },
+
       {
-        name: "تأشيرات السعوديه جميع انواعها",
-        routerPath: "/country/?country=1&service=visa",
+        name: "تأشيرات السياحية",
+        routerPath: "/country/?country=1&service=visatourism",
       },
+
+
       {
-        name: "برامج العمره",
+        name: "تأشيرات عمرة",
+        routerPath: "/country/?country=1&service=visaomra",
+      },
+
+      {
+        name: "تأشيرات رجال الأعمال",
+        routerPath: "/country/?country=1&service=visawork",
+      },
+
+
+      {
+        name: "تأشيرات زيارة",
+        routerPath: "/country/?country=1&service=visavisit",
+      },
+
+
+
+
+      {
+        name: "برامج العمرة الاقتصادية",
         routerPath: "/country/?country=1&service=omraProgramm",
       },
-      {
-        name: "برامج الحج",
-        routerPath: "/country/?country=1&service=hajProgramm",
-      },
+      // {
+      //   name: "برامج الحج",
+      //   routerPath: "/country/?country=1&service=hajProgramm",
+      // },
       {
         name: "سياحه الهجرة النبويه",
         routerPath: "/country/?country=1&service=nabawiTurism",
       },
 
-      {
-        name: "حجز فنادق",
-        routerPath: "/country/?country=1&service=hotelsFind",
-      },
+      // {
+      //   name: "حجز فنادق",
+      //   routerPath: "/country/?country=1&service=hotelsFind",
+      // },
 
-      {
-        name: "حجز مواصلات",
-        routerPath: "/country/?country=1&service=carsReservation",
-      },
+      // {
+      //   name: "حجز مواصلات",
+      //   routerPath: "/country/?country=1&service=carsReservation",
+      // },
 
       {
         name: "تأجير سيارات",
         routerPath: "/country/?country=1&service=carsRental",
       },
+
+      {
+        name: "استكشف السعوديه",
+        routerPath: "/country/?country=1&service=discover",
+      },
+
+
+
     ],
+
   },
   {
     id: 2,
@@ -472,30 +590,30 @@ export const listingCountries = [
     icon : '/assets/images/countries-icon/218-turkey.png',
     // icon: "https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png",
     items: [
-      {
-        name: "حجز فنادق",
-        routerPath: "/country/?country=2&service=hotelsReservation",
-      },
+      // {
+      //   name: "حجز فنادق",
+      //   routerPath: "/country/?country=2&service=hotelsReservation",
+      // },
 
       {
         name: "حجز شقق مفروشه",
         routerPath: "/country/?country=2&service=homesReservation",
       },
 
-      {
-        name: "حجز فيلا وقصور مفروشه",
-        routerPath: "/country/?country=2&service=villasReservation",
-      },
+      // {
+      //   name: "حجز فيلا وقصور مفروشه",
+      //   routerPath: "/country/?country=2&service=villasReservation",
+      // },
 
       {
         name: "حجز اكواخ",
         routerPath: "/country/?country=2&service=smallRoomsReservation",
       },
 
-      {
-        name: "حجز مزارع",
-        routerPath: "/country/?country=2&service=farmsReservation",
-      },
+      // {
+      //   name: "حجز مزارع",
+      //   routerPath: "/country/?country=2&service=farmsReservation",
+      // },
 
       {
         name: "حجز كرفانات",
@@ -516,10 +634,14 @@ export const listingCountries = [
         routerPath: "/country/?country=2&service=referencesProgramms",
       },
 
-      {
-        name: "برامج شهر العسل",
-        routerPath: "/country/?country=2&service=weddingsProgramms",
-      },
+      // {
+      //   name: "برامج شهر العسل",
+      //   routerPath: "/country/?country=2&service=weddingsProgramms",
+      // },
+
+      
+
+
 
       {
         name: "تأجير مواصلات",
@@ -531,10 +653,14 @@ export const listingCountries = [
         routerPath: "/country/?country=2&service=carsRental",
       },
 
-      {
-        name: "الوساطه التجاريه لتقديم خدمات رجال الاعمال",
-        routerPath: "/country/?country=2&service=business",
-      },
+
+
+
+
+      // {
+      //   name: "الوساطه التجاريه لتقديم خدمات رجال الاعمال",
+      //   routerPath: "/country/?country=2&service=business",
+      // },
     ],
   },
   {
