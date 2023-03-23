@@ -37,11 +37,24 @@ export const countries = [
   name: "تأشيرات عمرة",
   routerPath: "/country/?country=1&service=visaomra",
   mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
-  images: [],
+  images: [
+    "https://www.hajjomra.com/uploads/0000/1/2022/01/11/shutterstock-1847499955-600.jpg",
+"https://www.algerie360.com/wp-content/uploads/2023/03/Omra-scaled.jpeg",
+"https://andalous-tours.fr/303-thickbox_default/omra-ramadan.jpg",
+"https://lapatrienews.dz/wp-content/uploads/2021/11/Omra.jpg"
+  ],
   query: "visaomra",
   desc: "",
   subdesc: "",
   country: "saudi ",
+  title:"برامج العمرة لعام 2023 ",
+subTitle: "هـلا بكـم ببيـت ربكـم .. عمـره مقبولـة وذنـب مغفـور وسـعي مشـكور تفـرغ للعبـادة واتـرك لنـا خدمات الضيافة والحجوزات برامجنا للشركات B2B والقروبات والمجموعات فقط",
+list:[
+  "تأشيرة الكترونية 90 يوم مع التأمين",
+  "الاستقبال من المطار جولة كامله استقبال من المطار والمزارات والجولات",
+  "سكن بمكه 7 ليالي شامل ثلاث وجبات",
+  "مرشد ديني باللغة التركية ومترجم"
+]
 },
 
 
@@ -61,7 +74,10 @@ export const countries = [
   name: "تأشيرات زيارة",
   routerPath: "/country/?country=1&service=visavisit",
   mainImage: "/assets/images/service-imgs/saudi-banner.jpeg",
-  images: [],
+  images: [
+
+
+  ],
   query: "visavisit",
   desc: "",
   subdesc: "",

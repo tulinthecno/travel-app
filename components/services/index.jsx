@@ -32,8 +32,16 @@ const index = ({  filteredService}) => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h1>Find Properties in These Cities</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1 className=" text-black   font-arabic  text-2xl md:text-3xl font-semibold">
+                  {/* Find Properties in These Cities */}
+{filteredService?.title  ? filteredService.title : "Find Properties in These Cities"}
+                </h1>
+                <p className="text-black my-4  py-2 font-arabic  text-md md:text-xl font-semibold">
+{filteredService?.subTitle ? filteredService.subTitle : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+
+                  {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */}
+
+                </p>
               </div>
             </div>
           </div>
