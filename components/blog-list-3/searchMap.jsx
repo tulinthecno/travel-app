@@ -71,7 +71,7 @@ const geosDataFilter = (param) => {
 
 if (is.length) {
 
-return '#F53'
+return '#ffe033'
 
 }
 
@@ -150,7 +150,7 @@ return (
              transform="translate(1, 1)"
           >
             <circle 
-              r={4} fill="black" stroke="#fff" strokeWidth={2}   />
+              r={4} fill="#26569c" stroke="#ffffff" strokeWidth={2}   />
 
 
 

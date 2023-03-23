@@ -9,13 +9,13 @@ const SliderDesignTwo = () => {
     // arrows: true,
     // slidesToShow: 1,
     // slidesToScroll: 1,
-    // autoplay: true,
+     
     // speed: 1200,
     dots: true,
     arrows: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     speed: 1200,
 
 

@@ -10,7 +10,7 @@ const  FeaturesSliderStyles = () => {
     arrows: true,
     slidesToShow: 4,
     slidesToScroll: 3,
-    autoplay: false,
+    autoplay: true,
     speed: 1200,
     responsive: [
       {
