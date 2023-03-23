@@ -104,24 +104,48 @@ return (
             
             <Geography key={geo.rsmKey} geography={geo}
          
+            // fill="#EAEAEC"
+            // stroke="#D6D6DA"
+
             style={{
                 default: {
-                  fill:geosDataFilter(geo)
-              //    fill: geosData.includes(geo?.id) ? '#b8614b' :'#EEE' ,
-              //  fill:   `${geo?.id === "SAU"  || geo?.id === "PAK" 
-              //  || geo.id === "SRB" 
-              //  || geo.id === "HRV" 
+                  fill:geosDataFilter(geo) ,
+                  outline: "none",
+                  hover:geosDataFilter(geo) 
+                  // stroke:"#D6D6DA"
+               
+             
+
+           
+                },
 
                
-              //  ? '#b8614b' :'#EEE'} `
-                  // fill: "#EEE",
-                },
-                // hover: {
-                //   fill: "#F53"
+                //  hover: {
+                //   fill:geosDataFilter(geo) ,
+                //  },
+
+
+
+                // pressed: {
+                //   outline: "none",
                 // },
+
+
+
+                // hover: {
+                //   // fill: "#F53"
+                //   fill:'none'
+                // },
+
+
                 // pressed: {
                 //   fill: "#E42",
                 // },
+                // {
+             
+
+
+
               }}
             
             
@@ -164,7 +188,7 @@ return (
           onClick={()=> setLocation({name:name})}
             textAnchor="middle"
             y={markerOffset}
-            style={{ fontFamily: "system-ui", fill: "#5D5A6D"  , color: "#7b5151" , cursor: "pointer" ,fontSize: "8px" }}
+            // style={{ fontFamily: "system-ui", fill: "#5D5A6D"  , color: "#7b5151" , cursor: "pointer" ,fontSize: "8px" }}
           >
             
 

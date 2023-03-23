@@ -1,4 +1,4 @@
-const Social = () => {
+const Social = ({islogin=false}) => {
   const socialContent = [
     { id: 1, liveLink: "https://www.facebook.com/Patagonia.tourism?mibextid=ZbWKwl", icon: " fa fa-facebook" },
     // { id: 2, liveLink: "https://www.twitter.com/", icon: "fa-twitter" },

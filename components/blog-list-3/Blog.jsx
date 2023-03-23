@@ -1,6 +1,7 @@
 import Link from "next/link";
 import blogContent from "../../data/blogs";
 import parse from 'html-react-parser';
+import Footer from "../common/footer/Footer";
 
 const Blog = ({data:blogs}) => {
 
@@ -142,8 +143,6 @@ const parseHtml = (desc) => {
           </div>
         </div>
       ))} 
-
-
 
 
 

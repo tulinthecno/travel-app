@@ -31,16 +31,16 @@ const Header = () => {
         <Link href="/">
           <a className="navbar_brand float-start dn-smd">
             <img
-              className="logo1 img-fluid w-[155px]   h-[66px]"
+              className="logo1 img-fluid w-[134px]   h-[55px]"
              
-              // src=  '/assets/images/service-imgs/logoproject.jpeg'
-              src=  '/assets/images/service-imgs/this.jpeg'
+             src='/logo-small.jpeg'
+              // src=  '/assets/images/service-imgs/this.jpeg'
               alt="header-logo2.png"
             />
             <img
               className="logo2 img-fluid w-[155px]   h-[66px]"
               
-              // src=  '/assets/images/service-imgs/logoproject.jpeg'
+             
                 src=  '/assets/images/service-imgs/this.jpeg'
               alt="header-logo2.png"
             />
