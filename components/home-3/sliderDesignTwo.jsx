@@ -16,6 +16,12 @@ const SliderDesignTwo = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+
+    autoplay: {
+      delay: 1500,
+    },
+
+
     speed: 1200,
 
 
