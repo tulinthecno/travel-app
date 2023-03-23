@@ -79,7 +79,18 @@ dir="rtl"
 
               <h1 className=" text-white  font-arabic leading-[33px] md:leading-[55px] sm:text-2xl sm:mt-4 text-md md:text-4xl md:mt-8 w-[77%] ml-auto mr-auto font-semibold">{item?.desc}</h1>
 
-<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto  mt-[18px] w-[75%] pb-2    sm:p-2 md:p-4   font-arabic hover:bg-yellow-100  text-center  duration-100  transition-all">احجز الآن</h2>
+<h2 className=" text-black text-xl font-semibold rounded-lg  bg-[#FCFF81]  m-auto  mt-[18px] w-[75%] pb-2    sm:p-2 md:p-4   font-arabic hover:bg-yellow-100  text-center  duration-100  transition-all">
+  
+  <a
+  className="text-black text-xl md:text-2xl font-semibold"
+  href="https://butikatnaa.com/maintenance-page">
+
+  
+  احجز الآن
+
+  </a>
+
+</h2>
 
             </div>
 
