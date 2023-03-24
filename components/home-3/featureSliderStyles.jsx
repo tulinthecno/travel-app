@@ -61,7 +61,12 @@ const  FeaturesSliderStyles = () => {
               
 
               <div>
-                <p className=" relative  left-[83%] md:left-[82%] lg:left-[88%]  rounded-md inline-block px-2 text-center bg-white  text-[#0038FF] font-arabic  font-semibold">$203</p>
+                <p className=" w-[60px] h-[28px] relative  left-[83%] xs:left-[78%] md:left-[78%] lg:left-[81%] xl:left-[82%]  rounded-md inline-block px-2 text-center bg-white  text-[#0038FF] font-arabic  font-semibold">
+                  
+                  
+                  <span className=" my-auto  relative top-[4px]">$203</span>
+                  
+                  </p>
               </div>
 
              
