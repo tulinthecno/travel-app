@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { listingCountries } from '../../data/countries'
 import MyAccount from "../common/header/dashboard/MyAccount";
+import Social from "../login/socialICons";
 
 
 const HeaderMenuContentHome = ({ float = "" }) => {
@@ -248,7 +249,7 @@ const HeaderMenuContentHome = ({ float = "" }) => {
 
 
 
-        <li className={`list-inline-item list_s  ${float}   relative  sign-me-res  `}>
+        <li className={`list-inline-item list_s   ${float}   relative  sign-me-res  `}>
           <Link href={'/login'}>
             <a
               href="#"
@@ -259,6 +260,9 @@ const HeaderMenuContentHome = ({ float = "" }) => {
               <span className="   text-black  ">تسجيل دخول</span>
             </a>
           </Link>
+          <div className=" absolute bottom-[4px]  left-[7px]">
+            <Social/>
+          </div>
         </li>
 
 
