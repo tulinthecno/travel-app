@@ -38,7 +38,7 @@ const Header = () => {
               alt="header-logo2.png"
             />
             <img
-              className="logo2 img-fluid w-[155px]   h-[66px]"
+              className="logo2 img-fluid w-[155px]   h-[55px]"
               
              
                 src=  '/assets/images/service-imgs/this.jpeg'
