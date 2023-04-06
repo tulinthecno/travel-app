@@ -9,7 +9,7 @@ const  FeaturesSliderStyles = () => {
     dots: false,
     arrows: true,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     autoplay: true,
     speed: 1200,
     responsive: [
@@ -17,7 +17,7 @@ const  FeaturesSliderStyles = () => {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
         },
       },
       {
@@ -64,7 +64,7 @@ const  FeaturesSliderStyles = () => {
                 <p className=" w-[60px] h-[28px] relative  left-[83%] xs:left-[78%] md:left-[78%] lg:left-[81%] xl:left-[82%]  rounded-md inline-block px-2 text-center bg-white  text-[#0038FF] font-arabic  font-semibold">
                   
                   
-                  <span className=" my-auto  relative top-[4px]">$203</span>
+                  <span className=" my-auto  relative top-[4px]">{item?.price ? item?.price : 203}$</span>
                   
                   </p>
               </div>
