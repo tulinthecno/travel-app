@@ -6225,7 +6225,7 @@ form.home5_advanced_search_form
 }
 
 .feat_property {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid #ebebeb;
   border-radius: 8px;
   margin-bottom: 30px;
@@ -6245,7 +6245,8 @@ form.home5_advanced_search_form
 }
 
 .feat_property .thumb {
-  background: #1d293e;
+  
+  /* background: #1d293e; */
   border-radius: 8px;
   overflow: hidden;
   margin: 10px 9px 0 10px;
@@ -6253,7 +6254,7 @@ form.home5_advanced_search_form
 }
 
 .feat_property .thumb img {
-  opacity: 0.6;
+  /* opacity: 0.6; */
   object-fit: fill;
   /* min-height: 220px; */
   height: 222px;
@@ -6265,7 +6266,7 @@ form.home5_advanced_search_form
 .feat_property .thumb .blog_tag {
   background-color: var(--color-primary);
   border-radius: 3px;
-  color: rgb(254, 254, 254);
+  /* color: rgb(254, 254, 254); */
   font-family: "Nunito";
   font-size: 14px;
   height: 25px;

@@ -102,6 +102,9 @@ const Home3 = () => {
 <FeaturesSliderStyles />
 
 
+
+
+
 </div>
 
 
