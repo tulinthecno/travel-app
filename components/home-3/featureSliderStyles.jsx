@@ -56,7 +56,7 @@ const  FeaturesSliderStyles = () => {
       <div className="item" key={item.id}>
         <div className="feat_property home3 w-full  h-[377px] md:lg:h-[466] lg:h-[488px]">
           <div className="thumb h-[77%]">
-            <img className="img-wh w-full h-full object-cover" src={item.img} alt="fp1.jpg" />
+            <img className="img-wh w-full h-full object-fill md:object-cover" src={item.img} alt="fp1.jpg" />
             <div className="thmb_cntnt">
               
 
